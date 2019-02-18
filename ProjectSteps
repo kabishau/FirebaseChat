@@ -1,0 +1,9 @@
+Create project
+Install required libraries using CocoaPods. See Podfile.
+Create Bridging-Header file and import Objective-C header into Swift code
+Add Bridging-Header.h file name to Objective-C Bridging Header section of Build Settings
+Configure project on Firebase platform
+import JSQMessageViewController and subclass main view controller from it -> input field for message
+set up senderId and senderDisplayName in viewDidLoad
+override dataSource methods to provide number of messages and info for message
+
